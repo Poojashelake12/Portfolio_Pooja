@@ -1,12 +1,229 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<!-- Title icon link -->
+	<link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/686/686104.png">
+	<!-- CSS bootstarp link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<!-- javascript Bootstarp links -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<title>Pooja Portfolio</title>
 </head>
+
 <body>
-     <h1>Hello World</h1>
-     <h1>Hello</h1>
+	<!-- start navigation bar  -->
+	<div class="navigation-bar">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"><span class="brand tracking-in-expand"> Pooja </span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home"><span class="navmenu">Home</span> <span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about"><span class="navmenu">About</span> </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link " href="#skills"><span class="navmenu">Skills</span></a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link " href="#projects"><span class="navmenu">Projects</span></a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link " href="#contact"><span class="navmenu">Contact</span></a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</div>
+	<!-- End navigation bar -->
+	<div class="main-container">
+		<section id="home" class="Portfolio-section">
+			<div id="home-info">
+				<span class="info">Hi</span> <br>
+				<span class="info">My name is</span><br>
+				<span class="brand">POOJA</span><br>
+				<span class="info">I am <span class="role"> Full Stack Developer</span></span>
+				<button href="demo.pdf" class="rsmbtn">RESUME</button>
+			</div>
+		</section>
+		<section id="about" class="Portfolio-section about-section">
+			<div class="aboutmain">
+				<div class="myimage">
+					<img class="minion kenburns-botton"
+						src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ac7d183b-035e-4133-8302-bcc92a267aa7/dfb1ha0-040675da-49a2-4eec-8bd5-c90d47e89b92.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FjN2QxODNiLTAzNWUtNDEzMy04MzAyLWJjYzkyYTI2N2FhN1wvZGZiMWhhMC0wNDA2NzVkYS00OWEyLTRlZWMtOGJkNS1jOTBkNDdlODliOTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.X4Z6AWNy_whjf9Aq-7LqXueZSDR06SS3pbwuPFkHUFM"
+						alt="minion image">
+				</div>
+				<h1 class="heading">ABOUT</h1>
+				<div class="carrerobj">
+
+					<p class="carrer-info">Aspiring for the role of Full Stack Developer at an innovative company where
+						I can utilize my experience in designing, coding, testing, debugging, and deploying web
+						applications. </p>
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="Portfolio-section skills-section">
+			<h1 class="heading">SKILLS</h1>
+			<table class="tb1" height="450px" width="90%" border-spacing="50px">
+				<tr align="center" valign="top">
+					<div class="border-skills">
+						<td width="50%" data-aos="slide-right">
+							<h2 class="skills-subheading">Languages</h2>
+							<p class="detailed-skills">
+								core java, C, C++, Python,JavaScript, HTML, CSS, SQL.
+							</p>
+						</td>
+					</div>
+					<div class="border-skills">
+						<td data-aos="slide-left">
+							<h2 class="skills-subheading">API's & Frameworks</h2>
+							<p class="detailed-skills">
+								Collection, Stream API, Spring, Hibernates, Servlets, JDBC, SpringBoot, Spring MVC, JSP,
+								ReactJS.
+							</p>
+						</td>
+					</div>
+				</tr>
+				<tr>
+					<div class="border-skills">
+						<td data-aos="slide-right">
+							<h2 class="skills-subheading">Tools</h2>
+							<p class="detailed-skills">
+								VS Code, Eclipse IDE, Git, Gothub, Netbeams, Mysql,MongoDB.
+							</p>
+						</td>
+					</div>
+					<div class="border-skills">
+						<td data-aos="slide-left">
+							<h2 class="skills-subheading ">Operating System</h2>
+							<p class="detailed-skills">
+								Window,Android, Linux, Ubuntu.
+							</p>
+						</td>
+					</div>
+				</tr>
+			</table>
+
+		</section>
+		<section id="projects" class="Portfolio-section">
+			<h2 class="heading">PROJECTS</h2>
+			<div class="project-section">
+				<!-- Explain -->
+				<div class="card-group">
+					<div class="card">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROi2dErrR8qo-hK96py2tY2xwROvZmZ-jt6w&usqp=CAU"
+							class=" slide-fwd-center card-img-top " alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Calculator</h5>
+							<p class="card-text">I have successfully built a calculator! It's a practical tool designed
+								to perform basic arithmetic operations such as addition, subtraction, multiplication,
+								and division. Easy to use and convenient for solving math problems efficiently.</p>
+							<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+						</div>
+					</div>
+					<div class="card">
+						<img src="https://media.istockphoto.com/id/1339396804/vector/sharing-clothes-to-people-clothes-donation-concept-woman-hand-holding-box-full-of-clothes.jpg?s=612x612&w=0&k=20&c=eHaefs3iRnml2T164jNDjNE_jRTnZRt-8LfP_J0y6_M="
+						 class="img_ODW card-img-top"	alt="..." >
+						<div class="card-body">
+							<h5 class="card-title">Orphanage Donation Website</h5>
+							<p class="card-text">I have built a website to help support orphaned children, using HTML,
+								CSS, JavaScript, and PHP! It's a place where people can learn about the orphanage, read
+								stories about the children, and people can donate clothes, footwear, and other items to
+								support orphaned children. </p>
+							<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+						</div>
+					</div>
+					<div class="card">
+						<img src="https://feelmanapp.com/wp-content/uploads/2020/06/icon_temperatureconverter.png"
+							class=" card-img-top slide-fwd-center" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Temperature Converter</h5>
+							<p class="card-text">I have developed a temperature converter using HTML, CSS, and
+								JavaScript! It's a practical tool that allows users to convert temperatures between
+								Celsius, Fahrenheit. With a simple interface, it helps users quickly and accurately
+								convert temperatures, making it easier to understand and adapt to different weather
+								conditions.</p>
+							<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="Portfolio-section">
+			<h2 class="heading" >CONTACT</h2>
+			<div class="main-container1">
+				<div class="contact-child">
+					<ul class="contact-Info" type="none">
+						<li> &#x1F449;&#9993;
+							poojashelake901@gmail.com</li>
+						<li> &#x1F449;	&#128241;9325028893</li>
+						<li> &#x1F449;<a href="https://github.com/Poojashelake12">Poojashelake12</a></li>
+						<li> &#x1F449;<a
+								href="https://www.linkedin.com/in/pooja-shelake-7b431b222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">PoojaShelakeLinkediIn</a>
+						</li>
+						<!-- <li> &#x1F449;Pandharpur</li> -->
+					</ul>
+				</div>
+				<div>
+					<form action="">
+						<div >
+					
+							<form>
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1"
+										aria-describedby="emailHelp">
+									<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+										else.</small> -->
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Comment</label>
+									<textarea class="form-control" rows="2" cols="70" id="exampleInputPassword1"></textarea>
+								</div>
+								<div class="form-group form-check">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1" >
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</form>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section id="footer">
+             <h1 id="footer-info">MADE BY &copy;POOJA 2024</h1>
+		</section>
+	</div>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 2000
+		});
+	</script>
 </body>
+
 </html>
